@@ -4,7 +4,7 @@
 ###Przygotować funkcje map i reduce, które:
 
     1) wyszukają wszystkie anagramy w pliku word_list.txt
-    2) wyszukają najczęściej występujące słowa z Wikipedia data PL aktualny plik z artykułami, ok. 1.3 GB
+    2) wyszukają najczęściej występujące słowa z Wikipedia data PL aktualny plik z artykułami
 
 ---
 
