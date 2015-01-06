@@ -52,6 +52,6 @@ db.wordList.mapReduce(
 );
 ```
 
-####[Plik wynikowy!](./anagrams/anagrams.json)
+####[Plik wynikowy](./anagrams/anagram.json)
 
 
