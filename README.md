@@ -1,5 +1,5 @@
 #Zadanie 3
----
+
 ##Opis
 ###Przygotować funkcje map i reduce, które:
 
@@ -77,20 +77,19 @@ db.wordList.mapReduce(
 ####[Cały plik wynikowy](./anagrams/anagrams.json)
 
 ##2
----
+
 ###Dane: http://dumps.wikimedia.org/plwiki/
 
 ###Import
-```text
-    Do wykonania zadania konieczny był import danych do bazy MongoDB.
-    Ponieważ dane były zapisane w formacie xml, użyłem skryptu 
+
+Do wykonania zadania konieczny był import danych do bazy MongoDB. Ponieważ dane były zapisane w formacie xml, użyłem skryptu 
     [php](https://github.com/kodekrash/wikipedia.org-xmldump-mongodb)
-```
+
 
 ####Czas importu
-```
-	Ponieważ z różnych przyczyn importowałem dane kilka razy, średni czas importu wyniósł: 89 minut 39 sekund.
-```
+
+Ponieważ z różnych przyczyn importowałem dane kilka razy, średni czas importu wyniósł: 89 minut 39 sekund.
+
 
 ###MapReduce
 
@@ -137,11 +136,9 @@ Dodatkowo komputer podczas pracy MapReduce praktycznie nie nadawał się do uży
 
 
 #Dodatkowe MapReduce na innych danych
----
+
 ##Dane
-	Użyłem danych z których korzystałem przy okazji zaliczenia ćwiczeń z przedmiotu.
-	[Dane](http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time) opisują ruch samolotów w Stanach Zjednoczonych.
-	MapReduce pokazuje, które do którego lotniska lata najwięcej samolotów startujących ze Stanów Zjednoczonych.
+Użyłem danych z których korzystałem przy okazji zaliczenia ćwiczeń z przedmiotu. [Dane](http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time) opisują ruch samolotów w Stanach Zjednoczonych. MapReduce pokazuje, które do którego lotniska lata najwięcej samolotów startujących ze Stanów Zjednoczonych.
 
 ##MapReduce
 
