@@ -76,4 +76,22 @@ db.wordList.mapReduce(
 
 ####[Cały plik wynikowy](./anagrams/anagrams.json)
 
+##2
+
+###Dane: http://dumps.wikimedia.org/plwiki/
+
+###Import
+```text
+    Do wykonania zadania konieczny był import danych do bazy MongoDB.
+    Ponieważ dane były zapisane w formacie xml, użyłem skryptu 
+    [php](https://github.com/kodekrash/wikipedia.org-xmldump-mongodb)
+```
+
+####Czas importu
+```
+	Ponieważ z różnych przyczyn importowałem dane kilka razy, średni czas importu wyniósł: 89 minut 39 sekund.
+```
+
+###MapReduce
+
 
